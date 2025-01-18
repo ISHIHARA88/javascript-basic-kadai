@@ -1,4 +1,9 @@
-const squlare =  (number) =>{
-  console.log(number*number+'円');
+//calc 計算するの略
+const calc =  (num) =>{
+  return(num*num);
+//return 値を呼び出し元に返す.実行された時点で関数は終了する。
 }
-squlare(33);
+ console.log(calc(33))
+
+
+
